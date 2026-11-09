@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chá Comigo · Produtos naturais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#inicio"><img src="assets/logo.jpg" alt="Logotipo Chá Comigo"><span>Chá Comigo</span></a>
+<nav><a href="#inicio">Início</a><a href="#categorias">Categorias</a><a href="#produtos">Produtos</a><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a></nav>
+<a class="btn sm" id="wa-top" href="#" target="_blank" rel="noopener">WhatsApp</a>
+</div></header>
+
+<main id="inicio">
+<div class="hero"><div class="wrap">
+<div>
+<div class="eyebrow">Produtos naturais · Bem-estar · Cuidado</div>
+<h1>Sua jornada para uma vida mais natural começa aqui.</h1>
+<p class="lead">Chás, tônicos, superfrutas e aromas selecionados com carinho para acompanhar a sua rotina. Escolha seus favoritos e faça o pedido direto pelo WhatsApp.</p>
+<div class="cta"><a class="btn" href="#categorias">Conheça nossos produtos</a><a class="btn ghost" id="wa-hero" href="#" target="_blank" rel="noopener">Falar com a loja</a></div>
+<div class="trust"><span>Ingredientes de origem natural</span><span>Atendimento próximo</span><span>Pedido simples</span></div>
+</div>
+<div class="collage">
+<div class="c1"><img src="assets/cranberry.jpg" alt="Cranberry Supraervas" style="object-position:50% 70%"></div>
+<div class="c2"><img src="assets/ylang-ylang.jpg" alt="Óleo essencial Ylang Ylang" style="object-position:50% 78%"></div>
+<div class="c3"><img src="assets/cardio-tonico.jpg" alt="Cardio Tônico Life Natural" style="object-position:50% 68%"></div>
+</div>
+</div></div>
+
+<section id="categorias"><div class="wrap">
+<div class="head"><h2>Nossas categorias</h2><p>Encontre o que combina com o seu momento. Toque em uma categoria para conversar com a gente.</p></div>
+<div class="cats">
+<a class="cat" data-c="Chás e infusões" href="#"><div class="ph"><img src="assets/meg-ervas.jpg" alt="" style="object-position:50% 55%"></div><div class="tx"><h3>Chás e infusões</h3><p>Ervas para o seu ritual diário.</p><span class="more">Pedir pelo WhatsApp →</span></div></a>
+<a class="cat" data-c="Tônicos naturais" href="#"><div class="ph"><img src="assets/cardio-tonico.jpg" alt="" style="object-position:50% 68%"></div><div class="tx"><h3>Tônicos naturais</h3><p>Apoio para o equilíbrio do corpo.</p><span class="more">Pedir pelo WhatsApp →</span></div></a>
+<a class="cat" data-c="Superfrutas" href="#"><div class="ph"><img src="assets/cranberry.jpg" alt="" style="object-position:50% 70%"></div><div class="tx"><h3>Superfrutas</h3><p>Misturas solúveis práticas e saborosas.</p><span class="more">Pedir pelo WhatsApp →</span></div></a>
+<a class="cat" data-c="Óleos essenciais" href="#"><div class="ph"><img src="assets/ylang-ylang.jpg" alt="" style="object-position:50% 78%"></div><div class="tx"><h3>Óleos essenciais</h3><p>Aromas puros e veganos.</p><span class="more">Pedir pelo WhatsApp →</span></div></a>
+<a class="cat" data-c="Aromatizadores" href="#"><div class="ph"><img src="assets/aromatizador.jpg" alt="" style="object-position:50% 72%"></div><div class="tx"><h3>Aromatizadores</h3><p>Ambientes mais acolhedores.</p><span class="more">Pedir pelo WhatsApp →</span></div></a>
+</div>
+</div></section>
+
+<section id="produtos" style="background:var(--beige)"><div class="wrap">
+<div class="head"><h2>Nossos produtos</h2><p>Busque pelo nome ou pela marca e filtre por categoria.</p></div>
+<div class="filters"><input id="q" type="search" placeholder="Buscar produto ou marca…" aria-label="Buscar produto"><select id="ord" aria-label="Ordenar"><option value="az">Nome A–Z</option><option value="za">Nome Z–A</option></select></div>
+<div class="chips" id="chips"></div><p class="count" id="count"></p><div class="prods" id="prods"></div>
+</div></section>
+<div class="band" id="sobre"><div class="wrap"><h2>Natureza que acolhe, cuidado que se sente.</h2><a class="btn" id="wa-band" href="#" target="_blank" rel="noopener">Fazer um pedido</a></div></div>
+</main>
+<footer id="contato"><div class="wrap">Chá Comigo · Protótipo de loja virtual · Pedidos pelo WhatsApp</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
